@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2b8d690fd1b483f76e282d34154e6b7b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2b8d690fd1b483f76e282d34154e6b7b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2b8d690fd1b483f76e282d34154e6b7b = L.map(
+                "map_2b8d690fd1b483f76e282d34154e6b7b",
+                {
+                    center: [20.9518062, 105.8324756],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ad80766585b030d16d9b7cc7b7fd66f1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_ad80766585b030d16d9b7cc7b7fd66f1.addTo(map_2b8d690fd1b483f76e282d34154e6b7b);
+        
+    
+            var marker_b6166ff880b254b45e38ec37560f7776 = L.marker(
+                [20.9518062, 105.8324756],
+                {}
+            ).addTo(map_2b8d690fd1b483f76e282d34154e6b7b);
+        
+    
+        var popup_a46b994fb8a5e96babcadee9b5ba4b03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09af75058e01213c2ccd17ae7a7991df = $(`<div id="html_09af75058e01213c2ccd17ae7a7991df" style="width: 100.0%; height: 100.0%;">Tam Hiệp, Thanh Trì, Hà Nội</div>`)[0];
+                popup_a46b994fb8a5e96babcadee9b5ba4b03.setContent(html_09af75058e01213c2ccd17ae7a7991df);
+            
+        
+
+        marker_b6166ff880b254b45e38ec37560f7776.bindPopup(popup_a46b994fb8a5e96babcadee9b5ba4b03)
+        ;
+
+        
+    
+    
+            var marker_ffe0932781b524ffb32f886da8d11f0b = L.marker(
+                [21.0038292, 105.8480902],
+                {}
+            ).addTo(map_2b8d690fd1b483f76e282d34154e6b7b);
+        
+    
+        var popup_54b1cca51bc4ef64bd579f8e6be01232 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a338f2b12bfd7b75f750fba349428da3 = $(`<div id="html_a338f2b12bfd7b75f750fba349428da3" style="width: 100.0%; height: 100.0%;">Tạ Quang Bửu, Hai Bà Trưng, Hà Nội</div>`)[0];
+                popup_54b1cca51bc4ef64bd579f8e6be01232.setContent(html_a338f2b12bfd7b75f750fba349428da3);
+            
+        
+
+        marker_ffe0932781b524ffb32f886da8d11f0b.bindPopup(popup_54b1cca51bc4ef64bd579f8e6be01232)
+        ;
+
+        
+    
+    
+            var marker_f4f6b596929622c84614baaee816fef3 = L.marker(
+                [10.7773145, 106.6999907],
+                {}
+            ).addTo(map_2b8d690fd1b483f76e282d34154e6b7b);
+        
+    
+        var popup_eb01a57e9e9ec66646dd05da9e4906bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a458e5983c94305700472056e9a9d3e3 = $(`<div id="html_a458e5983c94305700472056e9a9d3e3" style="width: 100.0%; height: 100.0%;">Quận 1, Hồ Chí Mình</div>`)[0];
+                popup_eb01a57e9e9ec66646dd05da9e4906bd.setContent(html_a458e5983c94305700472056e9a9d3e3);
+            
+        
+
+        marker_f4f6b596929622c84614baaee816fef3.bindPopup(popup_eb01a57e9e9ec66646dd05da9e4906bd)
+        ;
+
+        
+    
+</script>
+</html>
